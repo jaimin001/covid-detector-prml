@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/resultsform.css') }}">
+    <title>Prediction</title>
+</head>
+
+<body>
+    <h1>Results:</h1>
+    <img class="given-image" src="./../static/temp/temp_saved.jpg"/>
+    <br>
+    <div class="text"> Prediction : <strong>{{ response }}</strong> </div>
+    <div class="text"> Covid Percentage: <strong>{{ probability }}%</strong> </div>
+    </div>
+    </div>
+</body>
+
+</html>

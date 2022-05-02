@@ -1,0 +1,56 @@
+* {
+    color: #000;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+br {
+    display: block;
+    content: '';
+    padding: 30px 0;
+}
+
+.upload-btn-wrapper {
+    border: 2px solid;
+}
+
+.text{
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1,
+h2 {
+    font-family: 'Space Mono', monospace;
+}
+
+h4 {
+    margin: 0px 300px;
+    margin-bottom: 20px;
+}
+
+.contri {
+    border: 2px solid;
+}
+
+.given-image{
+    height: 400px;
+    width: 400px;
+}
